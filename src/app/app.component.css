@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: aliceblue;
+    /* margin-top: 30px; */
+}
+
+/* button style */
+
+button {
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 25px;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #ff00d49e;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    opacity: 1;
+}
